@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rick and Morty - Personajes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="/image/icono.jpg" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <h1>Buscador de personajes de "Rick y Morty" </h1>
+  </header>
+
+  <section class="filters" >
+    <input type="text" id="filterName" placeholder="Filtrar por nombre" style="background-color: rgb(242, 242, 171);"/>
+    
+    <select id="filterEpisode" style="background-color: rgb(242, 242, 171);">
+      <option value="">Filtrar por episodio</option>
+    </select>
+
+    <select id="filterLocation" style="background-color: rgb(242, 242, 171);">
+      <option value="">Filtrar por mundo </option>
+    </select>
+    
+    <button id="btnClearFilters">Limpiar</button>
+  </section>
+
+  <section id="charactersContainer" class="characters-container"></section>
+
+  <footer>
+    <small>API de <a href="https://rickandmortyapi.com/" target="_blank" rel="noopener">Rick and Morty</a></small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

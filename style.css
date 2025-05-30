@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: url("image/icono.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  background-color: #95c5fbce;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  background: #e8d4d4b6;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.filters input, .filters select, .filters button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.filters button {
+  background-color: rgb(242, 242, 171);
+  border-color: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+  background-color: rgb(130, 130, 68);
+  color: white;
+}
+
+.characters-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.character-card {
+  background: rgba(228, 196, 196, 0.872);
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 20px 20px rgba(76, 207, 254, 0.82);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+}
+
+.character-info {
+  padding: 0.5rem;
+}
+
+.character-info h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.character-info p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  color: #070606;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #777;
+}
