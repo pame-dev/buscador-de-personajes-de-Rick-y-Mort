@@ -23,6 +23,5 @@ Este es un proyecto web básico que permite buscar personajes de la serie **Rick
 ## 📦 Instalación local (opcional)
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/pame-dev/buscador-de-personajes-de-Rick-y-Mort/tree/main.git
 # luego abre index.html con cualquier navegador
